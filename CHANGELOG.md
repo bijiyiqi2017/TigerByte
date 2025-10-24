@@ -43,6 +43,8 @@ The format is based on [Semantic Versioning](https://semver.org/).
 
 - Merged and closed issue #12
 
+- Added support for `version` and `about` commands to display interpreter metadata (#16)
+
 ## 🟡 Work in Progress
 
 - Wiki Home Page draft not yet created

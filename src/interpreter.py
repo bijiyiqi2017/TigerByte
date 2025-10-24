@@ -11,6 +11,7 @@ Date: October 2025
 License: MIT
 """
 from debug import Debugger
+from config import VERSION, REPO_URL
 import sys
 import os
 import argparse
@@ -81,14 +82,22 @@ def run_tigerbyte_file(filepath: str, debug_enabled: bool = False):
     debugger.log("Execution finished.")
 
 
-def execute_command(command: str, debugger: Debugger):
+def execute_command(command: str, debugger):
     """
     Basic command executor.
-    Supports: print "<message>"
+    Supports: print, version, about
     Future: feed, chase, roar, etc.
     """
+    
+    clean_command = command.strip().lower() # Normalize command input
 
-    if command.startswith("print "):
+    if clean_command == "version" or clean_command == "about":
+        # Handle the version/about command
+        print(f"🐯 TigerByte Interpreter {VERSION}")
+        print("Developed by the TigerByte Community")
+        print(f"Repository: {REPO_URL}")
+
+    elif command.startswith("print "):
         # Extract message text
         message = command[len("print "):].strip().strip('"').strip("'")
         print(message)
@@ -101,23 +110,47 @@ def execute_command(command: str, debugger: Debugger):
 def main():
     """CLI entry point with argument parsing."""
     parser = argparse.ArgumentParser(
-        description="🐯 TigerByte Interpreter v0.1 - Executes .tb files."
+        description="🐯 TigerByte Interpreter v0.1 - Executes .tb files. Use '--version' for info.",
     )
+
+    # --- CLI VERSION FLAG (THIS IS THE KEY FIX) ---
+    # When this flag is used, argparse will print the version and EXIT before checking for positional arguments.
+    parser.add_argument(
+        '--version',
+        action='version',
+        version=f'TigerByte Interpreter {VERSION}\nRepository: {REPO_URL}',
+        help="Show program's version number and exit."
+    )
+    # --- END VERSION FLAG ---
+
     parser.add_argument(
         'filepath',
+        nargs='?',           # Makes the argument OPTIONAL (0 or 1 argument)
+        default=None,
         help="Path to the TigerByte (.tb) script to run."
     )
     parser.add_argument(
         '--debug',
-        action='store_true', # Sets args.debug to True if flag is present
+        action='store_true',
         help="Enable debug mode to show execution steps."
     )
 
     # Parse the arguments provided from the command line
     args = parser.parse_args()
 
-    # Call the main execution function, passing the debug flag status
-    run_tigerbyte_file(args.filepath, debug_enabled=args.debug)
+    # --- LOGIC TO HANDLE NO FILEPATH (Assuming --version wasn't used, as it exits immediately) ---
+
+    if args.filepath:
+        # 1. If a filepath is provided, run the file.
+        run_tigerbyte_file(args.filepath, debug_enabled=args.debug)
+    
+    elif not args.filepath:
+        # 2. If NO filepath is provided, print the version/info directly.
+        # This handles the case where the user runs 'python interpreter.py' with no arguments.
+        print(f"🐯 TigerByte Interpreter {VERSION}")
+        print("Developed by the TigerByte Community")
+        print(f"Repository: {REPO_URL}")
+        print("\nNote: To run a script, use: python src/interpreter.py <filepath>")
 
 if __name__ == "__main__":
     main()
