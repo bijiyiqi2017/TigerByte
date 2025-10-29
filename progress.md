@@ -1,9 +1,19 @@
 # TigerByte Progress Log
 
-## October 27, 2025
+## October 28, 2025
 ### ✅ **Did**
 
-- Created tag v0.2.4 and GitHub release note for v0.2.4S
+- Created tag v0.2.4 and GitHub release note for v0.2.4
+
+- Pull requests audit ~ label closed PR's without a label.
+
+- Create Epic issue for start up banner system.
+
+- Created subissue 1,2,3 and linked to epic issue
+
+- Social media posts on new epic issue
+
+- Follow up reply to contributor Rangala Raj Kumar on pull request #23 
 
 ## October 27, 2025
 ### ✅ **Did**

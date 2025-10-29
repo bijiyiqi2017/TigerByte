@@ -4,6 +4,39 @@ All notable changes to TigerByte will be documented in this file.
 
 The format is based on [Semantic Versioning](https://semver.org/).
 
+
+
+[v0.2.4] - 2025-10-28
+## Added
+
+- Introduced Epic Issue for the Startup Banner System, including its roadmap and specific tasks.
+
+- Created sub-issues for the banner system:
+
+- Creative banner designs (ASCII/styled).
+
+- Modular banner program development.
+
+- Future roadmap design for system enhancements.
+
+## Fixed
+
+- Labeled and closed previously untagged pull requests.
+
+- Closed several merged issues that were still listed as open.
+
+## Changed
+
+- Updated issue tags across multiple items for improved tracking and clarity.
+
+## Social Media
+
+- Announced the Startup Banner System Epic Issue on relevant social media platforms to engage the community.
+
+## Contributors
+
+- Acknowledged and followed up with Rangala Raj Kumar for their contribution in pull request #23.
+
 [v0.2.4] - 2025-10-27
 
 Created an evaluation challenge for co-maintainer applicants to assess technical and collaboration skills.
