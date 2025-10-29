@@ -82,7 +82,7 @@ You should see the message printed in the terminal.
 
 ---
 
-# Windows Setup Guide
+# TigerByte Setup Guide for Windows 🐅
 
 ## Prerequisites
 
