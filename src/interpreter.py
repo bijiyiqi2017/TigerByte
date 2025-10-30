@@ -10,6 +10,9 @@ Author: Rangala Raj Kumar
 Date: 27 October 2025
 License: MIT
 """
+
+
+from .banners import display_random_banner, display_banner_by_name
 from debug import Debugger
 from config import VERSION, REPO_URL
 import sys
@@ -412,8 +415,31 @@ def run_tigerbyte_file(filepath: str, debug_enabled: bool = False):
 
 def main():
     parser = argparse.ArgumentParser(description="🐯 TigerByte Interpreter")
+    
+    # 1. ADD THE NEW BANNER ARGUMENT
+    parser.add_argument(
+        '--banner', 
+        type=str, 
+        nargs='?', 
+        const='random', 
+        default='random', 
+        help="Specify a banner name (e.g., 'banner1.txt') or 'none' to hide it. Default is 'random'."
+    )
+    
+    # 2. KEEP THE ORIGINAL FILE ARGUMENT
     parser.add_argument("file", help="path to .tb file")
-    args = parser.parse_args()
+
+    # 3. USE parse_known_args() TO ALLOW OTHER ARGS
+    args, _ = parser.parse_known_args()
+
+    # 4. ADD THE BANNER DISPLAY LOGIC
+    if args.banner != 'none':
+        if args.banner == 'random':
+            display_random_banner()
+        else:
+            display_banner_by_name(args.banner)
+            
+    # 5. KEEP THE ORIGINAL CALL TO RUN THE FILE
     run_tigerbyte_file(args.file)
 
 if __name__ == "__main__":
