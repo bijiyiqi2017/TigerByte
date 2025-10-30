@@ -152,3 +152,90 @@ You should see the message printed in the terminal.
 | **Antivirus blocking Python** | Add Python and project folder to antivirus exclusions |
 
 ---
+
+# TigerByte Setup Guide for Linux 🐅
+
+## Prerequisites
+
+| Requirement | Version | Installation Method |
+|-------------|---------|---------------------|
+| **Linux/WSL** | Ubuntu 20.04+ (Recommended) | - |
+| **Git** | Latest | `sudo apt install git` |
+| **Python** | 3.8+ | `sudo apt install python3 python3-venv` |
+
+**Important**: Ensure all commands are run inside the Linux terminal (not Windows CMD/PowerShell).
+
+---
+
+## Installation Steps
+
+### Step 1: Install System Dependencies
+
+If you are using a Debian/Ubuntu-based distribution (including WSL2), run this to ensure all tools are updated:
+
+```bash
+sudo apt update
+sudo apt install python3 python3-venv git -y
+```
+
+### Step 2: Clone the Repository
+
+Navigate to your working directory (`cd ~` is a good start) and clone the repository:
+
+```bash
+git clone https://github.com/bijiyiqi2017/TigerByte.git
+cd TigerByte
+```
+
+**Pro Tip (WSL2)**: Cloning the repo inside the Linux environment (`~`) offers better file system performance than cloning into a shared Windows drive (`/mnt/c/`).
+
+### Step 3: Set Up Virtual Environment
+
+This is crucial for isolating dependencies and avoiding permission errors.
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+**Pro Tip**: You'll see `(venv)` at the start of your terminal prompt when active!
+
+### Step 4: Install Dependencies
+
+With the virtual environment active, install all project requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 5: Run TigerByte
+
+Assuming the entry point is `tigerbyte.py`:
+
+```bash
+python3 tigerbyte.py
+```
+
+🐅 **Fun Tip**: Try a simple test command first:
+
+```python
+print("🐅 TigerByte is running!")
+```
+
+You should see the message printed in the terminal.
+
+🎉 **Success!** You should see the TigerByte welcome message.
+
+---
+
+## Common Issues & Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| `python3` command not found | Run `sudo apt install python3` to install the package. |
+| `venv/bin/activate` not found | Ensure you installed the venv tool: `sudo apt install python3-venv`. |
+| Permissions denied | This often indicates the virtual environment is not active. Run `source venv/bin/activate`. |
+| `pip` not found/fails | Use `pip3 install -r requirements.txt` instead, and ensure `python3-pip` is installed. |
+| Using different OS | Replace `sudo apt install` with the package manager for your distro (e.g., `dnf` for Fedora, `pacman` for Arch). |
+
+---
