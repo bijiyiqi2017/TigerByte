@@ -4,7 +4,22 @@ All notable changes to TigerByte will be documented in this file.
 
 The format is based on [Semantic Versioning](https://semver.org/).
 
+[v0.2.5] - 2025-10-29
+## Added
 
+- New issues #28 and #29 published.
+
+- Contributor assigned to Windows OS section under issue #14.
+
+## Changed
+
+- Issue #9 reassigned after contributor check-in and follow-up.
+
+- Related pull request for issue #9 merged.
+
+## Maintenance
+
+- Conducted contributor status reviews and follow-ups for stalled issues.
 
 [v0.2.4] - 2025-10-28
 ## Added

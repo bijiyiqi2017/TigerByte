@@ -1,5 +1,36 @@
 # TigerByte Progress Log
 
+## October 29, 2025
+### ✅ **Did**
+
+- Posted new issue#28
+
+- Issue#9 sent a checkin message on the issue comment area check status if the asignee is still working on this issue or can we reasign this issue.
+
+- Published issue#29 
+
+- Replied to stalled assignee who said to reassign the issue. I offered to review their work privately with them if he would like. Reassigned the issue. 
+
+- Pull request merge for issue#9 
+
+- Issue#14 assigned for Windows OS section
+
+## 🧭 Left Off
+
+- Awaiting updates from the new assignee for issue #14.
+
+- Reviewing feedback and progress on issue #28 and #29 before the next merge cycle.
+
+## 🔜 Next
+
+- Follow up with contributors who recently joined or expressed interest to match them with suitable open issues.
+
+- Begin drafting the project roadmap outline and label guidelines documentation.
+
+- Review pending PRs for potential merge in the upcoming review session.
+
+- Create a discussion post for monthly challenge ideas to boost project engagement. 
+
 ## October 28, 2025
 ### ✅ **Did**
 
@@ -11,9 +42,30 @@
 
 - Created subissue 1,2,3 and linked to epic issue
 
+- Closed several merged issues that were still open
+
+- Added several tags to issues
+
+
 - Social media posts on new epic issue
 
 - Follow up reply to contributor Rangala Raj Kumar on pull request #23 
+
+## ⏸ Left Off
+
+- Drafted a tag system issue.
+
+## 🔜 Next
+
+- Finalize and publish the tag system issue.
+
+- Start reviewing contributions for Hacktoberfest and assign suitable tasks.
+
+- Continue with the setup for the startup banner system (sub-issue 1: Create creative banners).
+
+- Coordinate with contributors on banner system tasks.
+
+
 
 ## October 27, 2025
 ### ✅ **Did**
