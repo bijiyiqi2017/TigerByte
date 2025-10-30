@@ -79,3 +79,76 @@ You should see the message printed in the terminal.
 | Module not found                         | Install dependencies: `pip install -r requirements.txt`                                                             |
 | Homebrew not found                       | Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` |
 | pipenv not found                         | Install pipenv: `brew install pipenv`                                                                               |
+
+---
+
+# TigerByte Setup Guide for Windows 🐅
+
+## Prerequisites
+
+| Requirement | Version | Download Link |
+|-------------|---------|---------------|
+| **Windows** | 10 or later (64-bit) | - |
+| **Git for Windows** | Latest | [Download](https://git-scm.com/download/win) |
+| **Python** | 3.8+ | [Download](https://www.python.org/downloads/) |
+
+**Important**: Check "Add Python to PATH" during Python installation
+
+---
+
+## Installation Steps
+
+### Step 1: Clone the Repository
+
+```cmd
+git clone https://github.com/bijiyiqi2017/TigerByte.git
+cd TigerByte
+```
+
+> **Pro Tip**: If you forked the repo, use your fork URL instead. This makes contributing back easier!
+
+### Step 2: Set Up Virtual Environment
+
+```cmd
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Pro Tip**: You'll see `(venv)` at the start of your command line when active!
+
+### Step 3: Install Dependencies
+
+```cmd
+pip install -r requirements.txt
+```
+
+### Step 4: Run TigerByte
+
+```cmd
+python tigerbyte.py
+```
+
+> 🐅 **Fun Tip**: Try a simple test command first:
+```python
+print("🐅 TigerByte is running!")
+```
+You should see the message printed in the terminal.
+
+🎉 **Success!** You should see the TigerByte welcome message.
+
+---
+
+## Common Issues & Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| **`python` command not recognized** | Reinstall Python and check "Add Python to PATH" during installation |
+| **`pip` not found** | Use `python -m pip install -r requirements.txt` instead |
+| **Permission errors** | Run Command Prompt as Administrator (right-click → "Run as administrator") |
+| **PowerShell script execution error** | Run: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` |
+| **`git` command not found** | Install Git for Windows from [git-scm.com](https://git-scm.com/download/win) |
+| **Module not found after pip install** | Ensure virtual environment is activated: `venv\Scripts\activate` |
+| **Long path errors** | Enable long paths: Run as Admin in CMD: `reg add HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPathsEnabled /t REG_DWORD /d 1 /f` |
+| **Antivirus blocking Python** | Add Python and project folder to antivirus exclusions |
+
+---
