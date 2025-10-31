@@ -151,5 +151,19 @@ It will expand after Hacktoberfest with:
 ---
 
 
+---
+
+---
+
+## 🎓 Learn More About Big O Notation
+
+We've added a complete guide to help you understand Big O notation, from the basics to common examples.
+
+* **[Introduction to Big O Notation](./docs/learn/big-o-notation/index.md)**
+* **[Common Time Complexities](./docs/learn/big-o-notation/common-complexities.md)**
+* **[Example: Linear Search (O(n))](./docs/learn/big-o-notation/linear-search.md)**
+* **[More Examples (O(1), O(log n), O(n²))](./docs/learn/big-o-notation/more-examples.md)**
+* **[Additional Learning Resources](./docs/learn/big-o-notation/resources.md)**
+
 ## License
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
