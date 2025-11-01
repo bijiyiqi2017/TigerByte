@@ -17,22 +17,81 @@ Every star counts and encourages us to keep improving TigerByte. Thank you for y
 ## Status
 🚧 **In Development** — project shell created, core design in progress.
 
-## **Hacktoberfest 2025 TigerByte Contributors**
+# **Hacktoberfest 2025 Contributions**
 
-Thank you to all the contributors who made TigerByte a success this Hacktoberfest! Your contributions mean a lot!
 
-### Top Contributors:
-1. @prakhar14-op - 5 PRs merged
-2. @Rishabh1925 - 3 PRs merged
-3. @Pratham00007 - 1 PR merged
-4. @Pranay22077 - 3 PRs merged
-5. @Rajkumar-Rangala-Dev - 2 PRs merged
-6. @GoldFoylee - 1 PR merged
-7. @VIDHITTS - 1 PR merged
-8. @shubham-gupta-2717 - 1 PR merged
-9. @Ishwarpatra - 1 PR merged
-10. @BhuvanB404 - 1 PR merged
-11. @nihalnayak45 - 1 PR merged
+Thank you to all our contributors for making Hacktoberfest 2025 a success! Below are the badges for outstanding contributions:
+
+---
+
+## Top Contributors Leaderboard
+
+### **1. Hacktoberfest 2025 Winner**  
+- **Criteria**: Top contributor overall for Hacktoberfest 2025
+- **Badge**:  
+  ![Hacktoberfest 2025 Winner](https://img.shields.io/badge/Hacktoberfest_2025_Winner-prakhar14--op-FFDF00?style=for-the-badge)  
+
+**Top Contributor**:  
+- [@prakhar14-op](https://github.com/prakhar14-op) - **5 PRs Merged**
+
+---
+
+### **2. Monthly Winner**  
+- **Criteria**: Top contributor for October 2025  
+- **Badge**:  
+  ![Monthly Winner](https://img.shields.io/badge/Monthly_Winner-October_2025-1E90FF?style=for-the-badge)  
+
+**Top Contributor for October**:  
+- [@prakhar14-op](https://github.com/prakhar14-op) - **5 PRs Merged**
+
+---
+
+### **3. Hacktoberfest 2025 Bronze Badge**  
+- **Criteria**: 1-2 PRs Merged  
+- **Badge**:  
+  ![Hacktoberfest 2025 Bronze](https://img.shields.io/badge/Hacktoberfest_2025-1--2_PRs-FF6F00?style=for-the-badge)  
+
+**Contributors**:  
+- [@Rajkumar-Rangala-Dev](https://github.com/Rajkumar-Rangala-Dev) - **2 PRs Merged**
+- [@shubham-gupta-2717](https://github.com/shubham-gupta-2717) - **1 PR Merged**  
+- [@GoldFoylee](https://github.com/GoldFoylee) - **1 PR Merged**  
+- [@VIDHITTS](https://github.com/VIDHITTS) - **1 PR Merged**
+
+---
+
+### **4. Hacktoberfest 2025 Silver Badge**  
+- **Criteria**: 3-4 PRs Merged  
+- **Badge**:  
+  ![Hacktoberfest 2025 Silver](https://img.shields.io/badge/Hacktoberfest_2025-3--4_PRs-C0C0C0?style=for-the-badge)  
+
+**Contributors**:  
+- [@Rishabh1925](https://github.com/Rishabh1925)   - **3 PRs Merged**  
+- [@Pratham00007](https://github.com/Pratham00007) - **3 PRs Merged**  
+- [@Pranay22077](https://github.com/Pranay22077)   - **3 PRs Merged**  
+
+---
+
+### **5. Hacktoberfest 2025 Gold Badge**  
+- **Criteria**: 5+ PRs Merged  
+- **Badge**:  
+  ![Hacktoberfest 2025 Gold](https://img.shields.io/badge/Hacktoberfest_2025-5--PRs-FFD700?style=for-the-badge)  
+
+**Contributors**:  
+- [@prakhar14-op](https://github.com/prakhar14-op) - **5 PRs Merged**
+
+---
+
+### **6. Hacktoberfest 2025 Champion Badge**  
+- **Criteria**: Most PRs Merged (Top Contributor)  
+- **Badge**:  
+  ![Hacktoberfest 2025 Champion](https://img.shields.io/badge/Hacktoberfest_2025-Champion-FFDF00?style=for-the-badge)  
+
+**Top Contributor**:  
+- [@prakhar14-op](https://github.com/prakhar14-op) - **5 PRs Merged**
+
+---
+
+Thank you for your contributions during Hacktoberfest 2025! Your participation helps make this project even better!
 
 
 ## Demo
