@@ -17,6 +17,24 @@ Every star counts and encourages us to keep improving TigerByte. Thank you for y
 ## Status
 🚧 **In Development** — project shell created, core design in progress.
 
+## **Hacktoberfest 2025 TigerByte Contributors**
+
+Thank you to all the contributors who made TigerByte a success this Hacktoberfest! Your contributions mean a lot!
+
+### Top Contributors:
+1. @prakhar14-op - 5 PRs merged
+2. @Rishabh1925 - 3 PRs merged
+3. @Pratham00007 - 1 PR merged
+4. @Pranay22077 - 3 PRs merged
+5. @Rajkumar-Rangala-Dev - 2 PRs merged
+6. @GoldFoylee - 1 PR merged
+7. @VIDHITTS - 1 PR merged
+8. @shubham-gupta-2717 - 1 PR merged
+9. @Ishwarpatra - 1 PR merged
+10. @BhuvanB404 - 1 PR merged
+11. @nihalnayak45 - 1 PR merged
+
+
 ## Demo
 Here’s a preview of the first version of the interpreter in action:
 
