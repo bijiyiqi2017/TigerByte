@@ -40,7 +40,7 @@ Each file extension represents a part of TigerByte’s playful yet functional id
 
 | Emoji | Extension | Purpose | Example |
 |:--:|:--:|:--|:--|
-| 🐯 | `.tbyte` | **Main source code files** — written in TigerByte syntax. | `hello_world.tbyte` |
+| 🐯 | `.tb` | **Main source code files** — written in TigerByte syntax. | `hello_world.tbyte` |
 | 🐾 | `.cub` | **Example/tutorial files** — beginner programs or demos. | `learn_feed.cub` |
 | 📣 | `.roar` | **Output/log files** — stores printed output or execution logs. | `run_output.roar` |
 | 🏠 | `.den` | **Configuration/environment files** — settings or runtime configs. | `settings.den` |
